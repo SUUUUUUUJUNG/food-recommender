@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Recommender</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<h1>음식 조합 추천기</h1>
+<form action="/recommend" method="post">
+    <label for="ingredients">재료를 입력하세요 (쉼표로 구분):</label><br>
+    <input type="text" id="ingredients" name="ingredients" required>
+    <button type="submit">추천받기</button>
+</form>
+</body>
+</html>
